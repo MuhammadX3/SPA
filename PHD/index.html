@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <p id="image">Hover over a sunsign image to display details.</p>
+
+      <img
+        src="./img/ga.jpg"
+        alt="Run Down!"
+        onmouseover="display(this)"
+        onmouseout="revert()"
+      />
+
+      <img
+        src="./img/lds.jpg"
+        alt="Navki"
+        onmouseover="display(this)"
+        onmouseout="revert()"
+      />
+
+      <img
+        src="./img/lock.jpg"
+        alt="Pello"
+        onmouseover="display(this)"
+        onmouseout="revert()"
+      />
+
+      <img
+        src="./img/sadcat.jpg"
+        alt="Melo"
+        onmouseover="display(this)"
+        onmouseout="revert()"
+      />
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
